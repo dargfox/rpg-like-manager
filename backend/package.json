@@ -1,0 +1,18 @@
+{
+	"scripts": {
+		"build": "tsc --build",
+		"dev": "tsc-watch --onSuccess \"node ./build/main.js\" --onFailure \"echo -e '\\007'\""
+	},
+	"dependencies": {
+		"fastify": "^4.26.2",
+		"prisma": "^5.10.2"
+	},
+	"include": [
+		"./*.ts"
+	],
+	"devDependencies": {
+		"@types/node": "^20.11.25",
+		"tsc-watch": "^6.0.4",
+		"typescript": "^5.4.2"
+	}
+}

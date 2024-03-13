@@ -1,0 +1,3 @@
+<template>
+    BARCOODE
+</template>

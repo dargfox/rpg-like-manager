@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "target": "ES2022",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "removeComments": true,
+        "sourceMap": true,
+        "outDir": "build",
+    },
+    "include": [
+        "./**/*.ts",
+        "package.json",
+    ],
+    "exclude": [
+        "build",
+        "node_modules",
+    ]
+}

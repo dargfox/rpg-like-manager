@@ -1,0 +1,31 @@
+@import './variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    margin: $marginM 0;
+    padding: $paddingM;
+    background-color: $color6;
+    flex-grow: 1;
+    box-sizing: border-box;
+    border-radius: $borderRadiusM;
+}
+
+.border-radius-s {
+    border-radius: $borderRadiusS;
+} 
+
+.border-radius-m {
+    border-radius: $borderRadiusM;
+}
+
+.border-radius-l {
+    border-radius: $borderRadiusL;
+}
+
+.box-shadow-m {
+    box-shadow: #00000040 0 0 10px;
+}
