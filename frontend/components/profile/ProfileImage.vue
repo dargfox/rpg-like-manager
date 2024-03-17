@@ -33,6 +33,8 @@ const profileImage = computed(() => (
     overflow: hidden;
     padding: $paddingS;
     position: relative;
+    aspect-ratio: 1;
+    margin: auto;
 
     img {
         width: 100%;
